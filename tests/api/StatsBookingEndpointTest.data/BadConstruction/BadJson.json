@@ -1,0 +1,13 @@
+{
+  "bookings":
+    {
+      "request_id": "bookata_XY123",
+      "check_in": "2020-01-01",
+      "nights": 5,
+      "selling_rate": 200,
+      "margin": 20
+    },
+  "expected_response": {
+    "message": "Errors: : Object value found, but an array is required"
+  }
+}

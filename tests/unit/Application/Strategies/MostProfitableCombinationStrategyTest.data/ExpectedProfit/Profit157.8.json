@@ -1,0 +1,51 @@
+{
+  "bookings": [
+    {
+      "request_id": "bookata_XY123",
+      "check_in": "2020-01-01",
+      "nights": 5,
+      "selling_rate": 200,
+      "margin": 20
+    },
+    {
+      "request_id": "kayete_PP234",
+      "check_in": "2020-01-04",
+      "nights": 4,
+      "selling_rate": 156,
+      "margin": 5
+    },
+    {
+      "request_id": "kayete_FR234",
+      "check_in": "2020-01-01",
+      "nights": 3,
+      "selling_rate": 156,
+      "margin": 5
+    },
+    {
+      "request_id": "atropote_AA930",
+      "check_in": "2020-01-04",
+      "nights": 4,
+      "selling_rate": 150,
+      "margin": 6
+    },
+    {
+      "request_id": "acme_AAAAA",
+      "check_in": "2020-01-10",
+      "nights": 4,
+      "selling_rate": 200,
+      "margin": 30
+    },
+    {
+      "request_id": "acme_AAAAA2",
+      "check_in": "2020-01-6",
+      "nights": 4,
+      "selling_rate": 500,
+      "margin": 30
+    }
+  ],
+  "expected_profit": 157.8,
+  "expected_avg": 20.05,
+  "expected_min": 2.6,
+  "expected_max": 37.5,
+  "expected_ids": ["kayete_FR234", "acme_AAAAA2"]
+}

@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "required": [
+      "request_id",
+      "check_in",
+      "nights",
+      "selling_rate",
+      "margin"
+    ],
+    "properties": {
+      "request_id": {
+        "type": "string",
+        "title": "Unique ID of the booking request"
+      },
+      "check_in": {
+        "type": "string",
+        "format": "date",
+        "title": "Unique ID of the booking request"
+      },
+      "nights": {
+        "type": "integer",
+        "title": "Unique ID of the booking request"
+      },
+      "selling_rate": {
+        "type": "integer",
+        "title": "Unique ID of the booking request"
+      },
+      "margin": {
+        "type": "integer",
+        "title": "Unique ID of the booking request"
+      }
+    }
+}

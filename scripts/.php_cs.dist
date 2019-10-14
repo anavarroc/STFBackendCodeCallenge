@@ -1,0 +1,20 @@
+<?php
+// var_dump(/__DIR__);
+$finder = PhpCsFixer\Finder::create()
+    ->exclude(['vendor','docker'])
+    ->in(['src','tests']);
+return PhpCsFixer\Config::create()
+    ->setRiskyAllowed(true)
+    ->setRules(
+        [
+            '@Symfony' => true,
+            'array_syntax' => ['syntax' => 'long'],
+            'concat_space' => ['spacing' => 'one'],
+            'is_null' => true,
+            'linebreak_after_opening_tag' => true,
+            'non_printable_character' => true,
+            'ordered_imports' => ['sortAlgorithm' => 'alpha'],
+            'phpdoc_order' => true,
+        ]
+    )
+    ->setFinder($finder);

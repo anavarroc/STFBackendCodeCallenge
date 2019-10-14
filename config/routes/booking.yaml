@@ -1,0 +1,8 @@
+booking.profit_per_nigth:
+  path: /booking/stats
+  methods: [POST]
+  controller: StayForLong\Infrastructure\Controllers\BookingController::stats
+booking.maximize_profit:
+  path: /booking/maximize
+  methods: [POST]
+  controller: StayForLong\Infrastructure\Controllers\BookingController::maximize

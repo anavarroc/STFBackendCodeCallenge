@@ -1,0 +1,25 @@
+{
+  "bookings": [
+    {
+      "request_id": "A",
+      "check_in": "2020-01-02",
+      "nights": 4,
+      "selling_rate": 200,
+      "margin": 20
+    },
+    {
+      "request_id": "B",
+      "check_in": "2020-01-08",
+      "nights": 4,
+      "selling_rate": 156,
+      "margin": 5
+    }
+  ],
+  "booking_to_check": {
+    "request_id": "C",
+    "check_in": "2020-01-01",
+    "nights": 13,
+    "selling_rate": 156,
+    "margin": 5
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "bookings": [
+    {
+      "request_id": "bookata_XY123",
+      "nights": 5,
+      "selling_rate": 200,
+      "margin": 20
+    },
+    {
+      "request_id": "kayete_PP234",
+      "check_in": "2020-01-04",
+      "nights": 4,
+      "selling_rate": 156,
+      "margin": 5
+    },
+    {
+      "request_id": "atropote_AA930",
+      "nights": 4,
+      "selling_rate": 150,
+      "margin": 6
+    },
+    {
+      "request_id": "acme_AAAAA",
+      "check_in": "2020-01-10",
+      "nights": 4,
+      "selling_rate": 160,
+      "margin": 30
+    }
+  ],
+  "expected_response": {
+    "message": "Errors: [0].check_in: The property check_in is required, [2].check_in: The property check_in is required"
+  }
+}
